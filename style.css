@@ -3263,10 +3263,18 @@ main,
   font-family: 'righteous';
   font-weight: 800;
   font-size: clamp(1.6rem, 4vw, 3.2rem);
-  letter-spacing: -.01em;
+  letter-spacing: .01em;
+  word-spacing: .12em;
   white-space: nowrap;
+  padding-right: .5em;
   color: #da1a31;
   transition: 0.3s;
+}
+
+.cta-star {
+  display: inline-block;
+  font-style: normal;
+  margin: 0 .14em;
 }
 
 .cta-slide span:hover {
